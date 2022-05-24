@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: transparent !important;
 }
 
 
@@ -12,16 +13,17 @@ body {
 .accordion-item {
     background-color: #fff;
     border: 0px solid rgba(0,0,0,.125) !important;
+    margin-bottom:30px;
 }
 
 .accordion-button {
-    font-size:20px;
+    font-size:24px;
     font-weight: bold;
 }
 
 .accordion-body {
-    font-size:18px;
-    line-height: 26px;
+    font-size:20px;
+    line-height: 40px;
 }
 
 .accordion-button:not(.collapsed) {
